@@ -33,7 +33,7 @@ const connectToMongoDB = async () => {
 
 const messageSchema = mongoose.Schema({
     name: { type: String, required: [true, 'Name is mandatory'] },
-    body: { type: String, required: [true, 'Message Body is mandatory'] },
+    body: { type: String, required: [true, 'Message Body is required again'] },
     timestamps: {}
 });
 
